@@ -15,7 +15,7 @@
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: 10px 40px 20px 10px;
     grid-row-gap: 1px;
-  grid-column-gap: 1.5px;
+    grid-column-gap: 1.5px;
 }
 
 .box {
@@ -99,22 +99,58 @@ h2 {
     text-align: center;
     font-size: 28px;
     font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
 }
 
 .section p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .summary {
     background-color: whitesmoke;
 }
 
+.education {
+    background-color: gold;
+}
+
 .summary img {
-    border-radius: 150px;
+    border-radius: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 2px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education img {
+    width: 250px;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: teal;
+    display: inline;
 }
