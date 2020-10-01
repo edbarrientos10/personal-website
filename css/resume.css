@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+.color-1 {color: #660106;} .color-2 {color: #396601;} .color-3 {color: #016661;} .color-4 {color: #2e0166;}
 
 .grid {
     border: 1px black solid;
@@ -118,7 +121,61 @@ h2 {
     padding-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 18px;
+    font-family: 'Vollkron', serif;
+    letter-spacing: 0.02em;
+}
+
+.section ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.section li {
+    font-size: 18px;
+    font-family: 'Vollkron', serif;
+}
+
+.section h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.section h4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.job_history {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px black solid;
+    z-index: -1;
+    color: black;
 }
 
 .summary {
@@ -128,6 +185,22 @@ h2 {
 .education {
     background-color: gold;
 }
+
+.employment {
+    background-color: #016661;
+    color: white;
+}
+
+.skills {
+    background-color: #2e0166;
+    color: white;
+}
+
+.languages {
+    background-color: #660106;
+    color: white;
+}
+
 
 .summary img {
     border-radius: 200px;
@@ -153,5 +226,6 @@ h2 {
 
 footer {
     background-color: teal;
-    display: inline;
+    display: inline-block;
+    width: 100%;
 }
